@@ -97,7 +97,7 @@ const Navbar = () => {
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-white md:hidden ml-auto"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={30} color="#000" /> : <FaBars size={30} />}
       </div>
       <button className=" border border-red-700 text-white px-2 mr-4 block md:hidden gap-3"> 
         <HiOutlineMail size={24} />
