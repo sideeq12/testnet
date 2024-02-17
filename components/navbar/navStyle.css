@@ -1,0 +1,28 @@
+nav{
+    padding : 20px 35px;
+    display:  flex;
+    flex-direction: row;
+    background-color: black;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.list{
+    display: flex;
+    gap: 3rem;
+    margin-left: auto;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    display: inline;
+    margin-right: 30px;
+}
+.list span{
+    display: flex;
+    gap: 3rem;
+}
