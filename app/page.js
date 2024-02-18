@@ -7,6 +7,7 @@ import { VscTools } from "react-icons/vsc";
 
 import { CgMenuGridR } from "react-icons/cg";
 import Newsletter from "@/components/newletter";
+import Technologies from "@/components/technologies";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
         <p className="mt-5 md:mt-10">lorem In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
         Lorem ipsum may be used as a placeholder before the final copy is available.</p>
         </div>
-        <div className=" ">
+        <div className="pl-5 md:pl-1 ">
           <Image src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
           width="400" height="400" className="hidden md:block" alt="image"/>
                <Image src="https://images.unsplash.com/photo-1573511860302-28c524319d2a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
@@ -105,14 +106,22 @@ export default function Home() {
  <CgMenuGridR size={24}/>
          <label> VIEW ALL</label></Link>
     </div> 
-    <div className="grid md:grid-cols-2 px-10 md:px-20 py-10 gap-4 md:gap-12">
-    <div className="border bg-black text-white">
-      <h3>Video Creatives</h3>
-      <p>Make an impact with your audience</p>
-    <Image src="" width="" height="" alt="image details"/> 
+    <div className="grid md:grid-cols-2  md:px-20 py-10 gap-4 md:gap-12">
+    <div className="border bg-black text-white text-center px-5 py-5 md:py-10">
+      <h3 className="text-2xl font-extrabold mb-2">Video Creatives</h3>
+      <p className="text-gray-500">Make an impact with your AUDIENCE</p>
+    <Image className="mx-auto mt-3" src="https://images.unsplash.com/photo-1536329583941-14287ec6fc4e?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+     width="300" height="400" alt="image details"/> 
+    </div>
+    <div className="border bg-black text-white text-center px-5 py-5 md:py-10">
+      <h3 className="text-2xl font-extrabold mb-2">Video Creatives</h3>
+      <p className="text-gray-500">Make an impact with your AUDIENCE</p>
+    <Image className="mx-auto mt-3" src="https://images.unsplash.com/photo-1498075702571-ecb018f3752d?q=80&w=1478&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+     width="300" height="400" alt="image details"/> 
     </div>
     </div>
      </div>
+     <Technologies />
      <Newsletter />
      </div>
   );
