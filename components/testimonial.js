@@ -15,7 +15,7 @@ const Testimonial = ( ) =>{
           <div class="container my-8 h-fit">
             <div
               id="scrollContainer"
-              class="flex flex-no-wrap overflow-x-scroll scrolling-touch h-fit items-start mb-8"
+              class="flex flex-no-wrap overflow-x-scroll scrolling-touch no-scrollbar h-fit items-start mb-8"
             >
                  <div
                 class="flex-none w-5/6 bg-white md:w-1/3 mr-8 md:pb-4 shadow-xl text-center group hover:bg-orange-500"
