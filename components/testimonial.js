@@ -32,7 +32,7 @@ const Testimonial = ( ) =>{
                         Some title goes here
                       </h3>
 
-                      <p class="w-3/4 mx-auto">
+                      <p class="w-3/4 mx-auto text-black  group-hover:text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad recusandae, consequatur corrupti vel quisquam id itaque
                         nam
@@ -63,7 +63,7 @@ const Testimonial = ( ) =>{
                         Some title goes here
                       </h3>
 
-                      <p class="w-3/4 mx-auto">
+                      <p class="w-3/4 mx-auto text-black  group-hover:text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad recusandae, consequatur corrupti vel quisquam id itaque
                         nam
@@ -94,7 +94,7 @@ const Testimonial = ( ) =>{
                         Some title goes here
                       </h3>
 
-                      <p class="w-3/4 mx-auto">
+                      <p class="w-3/4 mx-auto text-black  group-hover:text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad recusandae, consequatur corrupti vel quisquam id itaque
                         nam
@@ -123,7 +123,7 @@ const Testimonial = ( ) =>{
                         Some title goes here
                       </h3>
 
-                      <p class="w-3/4 mx-auto">
+                      <p class="w-3/4 mx-auto text-black  group-hover:text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ad recusandae, consequatur corrupti vel quisquam id itaque
                         nam
