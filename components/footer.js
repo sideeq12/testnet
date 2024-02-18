@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = ()=>{
     return(
-     <div className=" text-center py-10">
+     <div className=" text-center py-10 border-t border-gray-500">
            <div className="bg-black text-white grid md:grid-cols-3 px-10  py-10 gap-10 ">
            <div className="md:text-left">
             <h2 className="text-4xl mb-5">Logo</h2>
@@ -24,7 +24,7 @@ const Footer = ()=>{
            </div>
            <div className="md:text-left">
             <h2 className="text-4xl mb-5">Who Are We.</h2>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500">
     lorem In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
      the visual form of a document or a typeface without relying on meaningful content. 
         Lorem ipsum may In </p>
