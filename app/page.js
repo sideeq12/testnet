@@ -8,6 +8,8 @@ import { VscTools } from "react-icons/vsc";
 import { CgMenuGridR } from "react-icons/cg";
 import Newsletter from "@/components/newletter";
 import Technologies from "@/components/technologies";
+import Testimonial from "@/components/testimonial";
+import Articles from "@/components/articles";
 
 export default function Home() {
   return (
@@ -122,6 +124,8 @@ export default function Home() {
     </div>
      </div>
      <Technologies />
+     <Testimonial />
+     {/* <Articles /> */}
      <Newsletter />
      </div>
   );
