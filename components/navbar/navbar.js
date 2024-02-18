@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <div className="flex 
-     items-center w-full h-24 px-4 text-white bg-black fixed nav">
+     items-center w-full h-24 px-4 text-white bg-black fixed z-20 nav">
       <div>
          <h1 className="text-5xl font-signature ml-2">
           <a
@@ -88,7 +88,7 @@ const Navbar = () => {
         <SlSocialLinkedin />
         <SlSocialInstagram />
       </div>
-        <button className="bg-red-700 text-white px-3 lg:px-10 py-3 lg:mr-10 hidden md:flex gap-3"> 
+        <button className="bg-red-700  text-white px-3 lg:px-10 py-3 lg:mr-10 hidden md:flex gap-3"> 
         <HiOutlineMail size={24} />
         <label className="hidden lg:block">SEND MESSAGE</label></button>
         
@@ -97,10 +97,10 @@ const Navbar = () => {
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-white md:hidden ml-auto"
       >
-        {nav ? <FaTimes size={30} color="#000" /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={20} color="#000" /> : <FaBars size={20} />}
       </div>
-      <button className=" border border-red-700 text-white px-2 mr-4 block md:hidden gap-3"> 
-        <HiOutlineMail size={24} />
+      <button className=" border-2 border-red-700 text-white  p-1 mr-4 block md:hidden gap-3"> 
+        <HiOutlineMail size={20} />
         <label className="hidden">SEND MESSAGE</label></button>
 
       {nav && (
