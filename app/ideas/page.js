@@ -17,7 +17,7 @@ const Ideas = () =>{
           Home {"/"} <span className=" text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-500">Ideas</span>
         </div>
       </div>
-      <div className="relative  bg-white py-16 md:py-20">
+      <div className="relative  bg-white py-16 text-black md:py-20">
         <div className="h-12 w-2 b bg-red-600 ml-[48%] absolute -top-6"></div>
       <div className="flex flex-wrap justify-center gap-8 align-middle">
         <div className="w-80 md:w-96 h-42 border  bg-secondSign bg-cover bg-center text-white">

@@ -27,7 +27,7 @@ const About = () =>{
           If you are considering to partner with a team for getting assistance in accomplishing your marketing goals or objectives, we cordially "
           />
 
-        <div className="px-6 md:px-24 pb-20 bg-gray-200">
+        <div className="px-6 md:px-24 pb-20 bg-gray-200 text-black">
             <h3 className="font-semibold text-lg mb-10 capitalize">What problem are we solving</h3>
             <p className="mb-10">
             Every organization is unique with a different set of challenges they face in today’s competitive business environment. Staying in line with the latest digital marketing trends is one of the most essential elements of an overall marketing strategy. Many times enterprises 

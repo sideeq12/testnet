@@ -16,7 +16,7 @@ const Second = () => {
           Let's Build Something Together.
         </h1>
       </div>
-      <div className="w-screen py-10 md:py-20 bg-white text-center">
+      <div className="w-screen py-10 md:py-20 bg-white text-black text-center">
         <h2 className="capitalize font-semibold text-5xl mb-6 md:text-6xl">What are you interest in ?</h2>
         <div className="flex flex-col pl-10 md:flex-row w-fit  mx-auto my-6 gap-8">
           <div className="h-fit  px-6 py-4 w-80 md:w-96  hover:cursor-pointer group shadow-lg
