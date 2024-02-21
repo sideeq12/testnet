@@ -30,14 +30,17 @@ const Navbar = () => {
     {
       id: 1,
       link: "Our work",
+      url : "work"
     },
     {
       id: 2,
       link: "Our Plans",
+      url : "plans"
     },
     {
       id: 3,
       link: "Ideas",
+      url : "ideas"
     },
   ];
 
@@ -58,27 +61,25 @@ const Navbar = () => {
       </div>
      <div className="ml-auto hidden md:flex gap-4">
      <Dropdown label="Company" className="text-black" dismissOnClick={false} inline>
-      <Dropdown.Item><Link href="/second">second</Link></Dropdown.Item>
-      <Dropdown.Item>Settings</Dropdown.Item>
+      <Dropdown.Item><Link href="/career">Career</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/about_us">About Us</Link></Dropdown.Item>
       <Dropdown.Item>Earnings</Dropdown.Item>
-      <Dropdown.Item>Sign out</Dropdown.Item>
     </Dropdown>
     <Dropdown label="Services" className="text-black" dismissOnClick={false} inline>
       <Dropdown.Item>Dashboard</Dropdown.Item>
       <Dropdown.Item>Settings</Dropdown.Item>
       <Dropdown.Item>Earnings</Dropdown.Item>
-      <Dropdown.Item>Sign out</Dropdown.Item>
     </Dropdown>
      </div>
       <ul className="hidden md:flex md:gap-2 lg:gap-4 lg:mr-3">
     
-        {links.map(({ id, link }) => (
+        {links.map(({ id, url, link }) => (
           <li
             key={id}
             className="nav-links px-4 cursor-pointer capitalize font-medium text-white
              hover:scale-105 hover:text-white duration-200 link-underline"
           >
-            <Link href={link}>{link}</Link>
+            <Link href={url}>{link}</Link>
           </li>
         ))}
       </ul>
