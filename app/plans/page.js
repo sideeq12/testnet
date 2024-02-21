@@ -13,7 +13,7 @@ const Second = () => {
           className="mt-32 text-5xl px-10 md:text-8xl text-center md:text-left font-[900]  md:w-1/2 mx-auto
          text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-500"
         >
-          Let's Build Something Together.{" "}
+          Let's Build Something Together.
         </h1>
       </div>
       <div className="w-screen py-10 md:py-20 bg-white text-center">
