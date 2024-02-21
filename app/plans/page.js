@@ -19,7 +19,7 @@ const Second = () => {
       <div className="w-screen py-10 md:py-20 bg-white text-black text-center">
         <h2 className="capitalize font-semibold text-5xl mb-6 md:text-6xl">What are you interest in ?</h2>
         <div className="flex flex-col pl-10 md:flex-row w-fit  mx-auto my-6 gap-8">
-          <div className="h-fit  px-6 py-4 w-80 md:w-96  hover:cursor-pointer group shadow-lg
+          <div className="h-fit  px-6 py-4 w-80 md:w-96 text-black  hover:cursor-pointer group shadow-lg
            hover:bg-gradient-to-r from-red-500 to-purple-500 hover:text-white ">
             <SlDiamond size={40} color="red" className="mx-auto my-6"/>
             <h3 className="font-semibold  border-b-2 py-4 mb-6 text-2xl">Creative Designs (CD)</h3>
@@ -41,7 +41,7 @@ const Second = () => {
     <span>CHOOSE PLAN</span>
           </div>
         </div>
-        <div className="h-fit px-6 py-4 w-80 md:w-96  hover:cursor-pointer group shadow-lg
+        <div className="h-fit px-6 py-4 w-80 md:w-96  text-black   hover:cursor-pointer group shadow-lg
            hover:bg-gradient-to-r from-red-500 to-purple-500 hover:text-white ">
             <SlDiamond size={40} color="red" className="mx-auto my-6"/>
             <h3 className="font-semibold  border-b-2 py-4 mb-6 text-2xl">Creative Designs (CD)</h3>
