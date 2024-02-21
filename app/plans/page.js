@@ -7,8 +7,8 @@ import { SlDiamond } from "react-icons/sl";
 
 const Second = () => {
   return (
-    <div className=" ">
-      <div className=" bg-black w-full h-screen flex flex-col justify-center align-center gap-10 pb-10">
+    <div>
+      <div className="bg-black w-full h-screen flex flex-col justify-center align-center gap-10 pb-10">
         <h1
           className="mt-32 text-5xl px-10 md:text-8xl text-center md:text-left font-[900]  md:w-1/2 mx-auto
          text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-purple-500"
