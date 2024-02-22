@@ -63,7 +63,7 @@ const Navbar = () => {
      <Dropdown label="Company" className="text-black" dismissOnClick={false} inline>
       <Dropdown.Item><Link href="/career">Career</Link></Dropdown.Item>
       <Dropdown.Item><Link href="/about_us">About Us</Link></Dropdown.Item>
-      <Dropdown.Item>Earnings</Dropdown.Item>
+      <Dropdown.Item><Link href="/contacts">Contact Us</Link></Dropdown.Item>
     </Dropdown>
     <Dropdown label="Services" className="text-black" dismissOnClick={false} inline>
       <Dropdown.Item>Dashboard</Dropdown.Item>
@@ -109,10 +109,9 @@ const Navbar = () => {
         flex-col justify-center items-center   text-black">
             <div className="text-4xl">
      <Dropdown label="Company" className="text-black" dismissOnClick={false} inline>
-      <Dropdown.Item><Link href="/second">second</Link></Dropdown.Item>
-      <Dropdown.Item>Settings</Dropdown.Item>
-      <Dropdown.Item>Earnings</Dropdown.Item>
-      <Dropdown.Item>Sign out</Dropdown.Item>
+      <Dropdown.Item><Link href="/career">Career</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/about_us">About Us</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/contacts">Contact Us</Link></Dropdown.Item>
     </Dropdown>
     <br/>
     <Dropdown label="Services" className="text-black" dismissOnClick={false} inline>
