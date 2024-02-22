@@ -109,9 +109,9 @@ const Navbar = () => {
         flex-col justify-center items-center   text-black">
             <div className="text-4xl">
      <Dropdown label="Company" className="text-black" dismissOnClick={false} inline>
-      <Dropdown.Item><Link href="/career">Career</Link></Dropdown.Item>
-      <Dropdown.Item><Link href="/about_us">About Us</Link></Dropdown.Item>
-      <Dropdown.Item><Link href="/contacts">Contact Us</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/career" onClick={()=>{setNav(false)}}>Career</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/about_us"  onClick={()=>{setNav(false)}} >About Us</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/contacts"  onClick={()=>{setNav(false)}}>Contact Us</Link></Dropdown.Item>
     </Dropdown>
     <br/>
     <Dropdown label="Services" className="text-black" dismissOnClick={false} inline>
@@ -123,12 +123,12 @@ const Navbar = () => {
      </div>
 
     <ul className="mt-5 -ml-10">
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, url }) => (
             <li
               key={id}
               className="cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link onClick={() => setNav(!nav)} href={link}>
+              <Link onClick={() => setNav(!nav)} href={url}>
                 {link}
               </Link>
             </li>
